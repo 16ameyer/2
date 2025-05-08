@@ -28,7 +28,7 @@ def show_main_menu():
     st.success("The purpose of this program is to help you learn more about volcanoes.")
     st.write("Here is a preview of the data. There are options on the sidebar.")
     st.write(df_volcano) # [VIZ1] A table with a title, colors, and labels
-    image_path1 = "C:\\Users\\audre\\OneDrive - Bentley University\\CS 230\\Images\\volcano.jpg"
+    image_path1 = "volcano.jpg"
     img1 = Image.open(image_path1) # [ST4] Customized page design feature (image)
     st.image(img1, width=700)
 
