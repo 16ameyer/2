@@ -26,7 +26,7 @@ def show_main_menu(): #This will be the main menu that user sees when opening th
     st.success("The purpose of this program is to help you learn more about volcanoes.")
     st.write("Here is a preview of the data looks like. Obviously a very large dataset that was provided by Smithsonian, but it is provided below so that you can get a feel for the types of information available here. There are awesome options on the sidebar to your left :)") #Being friendly and encouraging learning
     st.dataframe(df_volcano) # [VIZ1] A table with a title, colors, and labels
-    image_path = "C:\\Users\\audre\\OneDrive - Bentley University\\CS 230\\Python\\volcano.jpg" #Cool picture so people can recall what a volcano can look like
+    image_path = "volcano.jpg" #Cool picture so people can recall what a volcano can look like
     img = Image.open(image_path) # [ST4] Customized page design feature (image)
     st.image(img, width=700)
 
