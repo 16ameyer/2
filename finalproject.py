@@ -2,7 +2,7 @@
 Name: Audrey Meyer
 CS230: Section 2
 Data: Volcano Data from Smithsonian
-URL:
+URL: https://6susdvchyy6qyyueyyrhts.streamlit.app/
 
 Description:
 This program aims to educate individuals on information relating to volcanoes.
